@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "403841029325",
+    "firebase_url": "https://flutter-course-abe94.firebaseio.com",
+    "project_id": "flutter-course-abe94",
+    "storage_bucket": "flutter-course-abe94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403841029325:android:38f09eb12a3a2eec024584",
+        "android_client_info": {
+          "package_name": "com.example.flutter_course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403841029325-tcdf0jb7bm1f2lcuivvpv4ncnslbo3m8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2pShKajzVtDzVMExYBqBcPC_WKKmHFKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403841029325-tcdf0jb7bm1f2lcuivvpv4ncnslbo3m8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

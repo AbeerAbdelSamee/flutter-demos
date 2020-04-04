@@ -1,17 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_course/services/auth.dart';
+import './firstpage.dart';
+import './secondpage.dart';
+import './screens/wrapper.dart';
+import 'package:provider/provider.dart';
 
+import 'models/user.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return StreamProvider<User>.value(
+    value: AuthService().user,
+    child:MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
-    );
+      home: Wrapper(),
+    ));
   }
 }
 class MyHomePage extends StatefulWidget {
@@ -79,3 +87,4 @@ Future<bool> deleteDialog(BuildContext context) {
     }
   );
 }
+
